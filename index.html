@@ -188,22 +188,22 @@
                             </li>
                             <li>
                                 <div class="uk-card uk-card-default uk-card-body uk-margin-large-left ">
-                                    <form>
+                                    <form method="POST" action="mail.php">
                                         <fieldset class="uk-fieldset">
                                     
                                             <legend class="uk-legend">Contact Form</legend>
                                     
                                             <div class="uk-margin">
-                                                <input class="uk-input" type="text" placeholder="Name" required>
+                                                <input class="uk-input" name="name" type="text" placeholder="Name" required>
                                             </div>
                                             <div class="uk-margin">
-                                                <input class="uk-input" type="text" placeholder="Email ID" required>
+                                                <input class="uk-input" name="email" type="text" placeholder="Email ID" required>
                                             </div>
                                             <div class="uk-margin">
-                                                <input class="uk-input" type="text" placeholder="Mobile">
+                                                <input class="uk-input" name="mobile" type="text" placeholder="Mobile">
                                             </div>
                                             <div class="uk-margin">
-                                                <textarea class="uk-textarea" rows="5" placeholder="Message"></textarea>
+                                                <textarea class="uk-textarea" name="message" rows="5" placeholder="Message"></textarea>
                                             </div>
                                             <button class="uk-button uk-button-primary">Send</button>
                                         </fieldset>
@@ -223,22 +223,22 @@
     
             <button class="uk-modal-close-default" type="button" uk-close></button>
     
-            <form>
+            <form method="POST" action="mail.php">
                 <fieldset class="uk-fieldset">
             
                     <legend class="uk-legend">Contact Form</legend>
             
                     <div class="uk-margin">
-                        <input class="uk-input" type="text" placeholder="Name" required>
+                        <input class="uk-input" name="name" type="text" placeholder="Name" required>
                     </div>
                     <div class="uk-margin">
-                        <input class="uk-input" type="text" placeholder="Email ID" required>
+                        <input class="uk-input" name="email" type="text" placeholder="Email ID" required>
                     </div>
                     <div class="uk-margin">
-                        <input class="uk-input" type="text" placeholder="Mobile">
+                        <input class="uk-input" name="mobile" type="text" placeholder="Mobile">
                     </div>
                     <div class="uk-margin">
-                        <textarea class="uk-textarea" rows="5" placeholder="Message"></textarea>
+                        <textarea class="uk-textarea" name="message" rows="5" placeholder="Message"></textarea>
                     </div>
                     <button class="uk-button uk-button-primary">Send</button>
                 </fieldset>
